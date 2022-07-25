@@ -34,7 +34,7 @@ function load(page) {
             rpSection = false;
             break;
         case 5:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/polizei.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/polizei.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
@@ -69,7 +69,7 @@ function load(page) {
             setActive(rpids[page]);
             break;
         case 6:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/zoll.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/zoll.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
