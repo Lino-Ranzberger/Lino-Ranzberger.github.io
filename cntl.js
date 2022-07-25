@@ -30,7 +30,7 @@ function load(page) {
             rpSection = false;
             break;
         case 4:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/team.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/team.json";
             rpSection = false;
             break;
         case 5:
