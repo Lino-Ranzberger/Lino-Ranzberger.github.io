@@ -26,7 +26,7 @@ function load(page) {
             rpSection = false;
             break;
         case 3:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/communitymanager.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/communitymanager.json";
             rpSection = false;
             break;
         case 4:
