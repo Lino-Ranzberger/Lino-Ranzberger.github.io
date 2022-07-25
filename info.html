@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="de">
-<div id="top"></div>
 
 <head>
     <meta charset="UTF-8">
@@ -9,11 +8,7 @@
     <title>Forum Übersicht</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="cntl.js"></script>
-    <script>
-        load(11);
-        fetch("https://bit.ly/forumübersicht").catch();
+    <script src="cntl.js">
     </script>
 </head>
 
@@ -21,19 +16,18 @@
     <div class="menuBox">
         <a href="bewerbung.html">Bewerbungsteam</a>
         <a href="teammanagement.html">Teammanagement</a>
-        <a href="communitymanager.html">Communitymanager</a>
+        <a class="active" href="communitymanager.html">Communitymanager</a>
         <a href="team.html">Teammitglieder</a>
         <a href="rp-leitungen.html">RP-Fraktionen</a>
-        <a class="active" href="info.html">Info</a>
+        <a href="info.html">Info</a>
     </div>
-    <div id="pageBox">
+    <div id="infoBox">
+        <p>Auf dieser Seite werden alle Fraktionen und deren Mitglieder abgebildet, sollte etwas NICHT stimmen, kannst du es auf<a href="https://github.com/Lino-Ranzberger/Lino-Ranzberger.github.io/tree/main/Data"
+                target="_blank" style="color: rgb(26, 26, 26);"> GitHub</a> direkt selbst ändern oder dich bei<a href="http://xiteliferpe.de/index.php?user/1-lino/"
+                target="_blank" style="color: rgb(26, 26, 26);"> Lino</a> oder <a href="http://xiteliferpe.de/index.php?user/2-flo/"
+                target="_blank" style="color: rgb(26, 26, 26);"> Flo</a> melden.</p>
+
+        <a href="http://xiteliferpe.de/index.php?user/1-lino/" target="_blank" style="color: rgb(165, 165, 165); text-decoration: none;">Erstellt von Lino</a>
     </div>
-    <div id="contentBox">
-        <div class="loader" id="loader">
-            <div class="loaderBar"></div>
-        </div>
-    </div>
-    <button id="scrollUp" style="visibility: hidden;">nach Oben</button>
-</body>
 
 </html>
