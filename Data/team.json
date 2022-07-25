@@ -1,0 +1,26 @@
+{
+   "members":[
+   {
+         "name":"Lino",
+         "rank":"Owner",
+         "highlight":true,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/b5/7174-b5a65f2fe0c515f2807847d6a42746cf794ead44.jpg",
+         "profile":"http://xiteliferpe.de/index.php?user/1-lino/"
+      },
+      {
+         "name":"Flo",
+         "rank":"Co.Owner",
+         "highlight":true,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/96/6946-96d90af3adef87d2c011677b0a5ac75402b4b460.jpg",
+         "profile":"http://xiteliferpe.de/index.php?user/2-flo/"
+      },
+      {
+
+         "name":"Wilder_Dude",
+         "rank":"Superadmin",
+         "highlight":true,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/avatar-default.svg",
+         "profile":"http://xiteliferpe.de/index.php?user/9-wilder-dude/"
+      }
+   ]
+}
