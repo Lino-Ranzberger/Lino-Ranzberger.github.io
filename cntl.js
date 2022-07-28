@@ -2,13 +2,12 @@ const rpids = {
     5: "pol",
     8: "med",
     9: "feu",
-    10: "far",
     7: "sek",
     6: "zoll"
 }
 
 const maxEntrys = 10;
-const showPageUpEntrys = 6;
+const showPageUpEntrys = 5;
 var curMembers;
 var rpSection;
 
@@ -54,13 +53,6 @@ function load(page) {
             ClearPageBox();
             setActive(rpids[page]);
             break;
-        case 10:
-            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/fahrschule.json";
-            rpSection = true;
-            ClearSubBox();
-            ClearPageBox();
-            setActive(rpids[page]);
-            break;
         case 7:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/sek.json";
             rpSection = true;
@@ -89,7 +81,7 @@ function load(page) {
 }
 
 function setActive(id) {
-    var ids = ["pol", "med", "feu", "far", "sek", "zoll"];
+    var ids = ["pol", "med", "feu", "sek", "zoll"];
     for (let i = 0; i < ids.length; i++) {
         document.getElementById(ids[i]).classList.remove("active");
     }
